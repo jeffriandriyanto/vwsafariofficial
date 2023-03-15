@@ -3,7 +3,7 @@
   <v-container class="py-12">
     <v-sheet class="pa-4">
       <v-card-title class="text-black font-weight-bold text-h4 text-center mb-8 d-flex align-center justify-center">
-        Hubungi Kami
+        Kontak Kami
       </v-card-title>
       <v-card-text class="text-body-1">
         <v-row>
@@ -24,7 +24,8 @@
 <script setup>
 const offices = [
   {
-    url: "tel:+6281519568726",
+    // url: "tel:+6281519568726",
+    url: "https://wa.me/+6281519568726",
     icon: "mdi-phone",
     label: "+62 815-1956-8726",
   },
@@ -35,9 +36,9 @@ const offices = [
 //     label: "Jl. Borobudur",
 //   },
   {
-    url: "mailto:andri@gmail.com",
+    url: "mailto:seribuwulung@gmail.com",
     icon: "mdi-email",
-    label: "andri@gmail.com",
+    label: "seribuwulung@gmail.com",
   },
   {
     url: "https://www.instagram.com/vwsafari_official/",

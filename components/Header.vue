@@ -61,7 +61,7 @@ const menus = [
   { link: "#package", label: "Paket" },
   { link: "#why-us", label: "Mengapa kami" },
   { link: "#galery", label: "Galeri" },
-  { link: "#contact-us", label: "Hubungi Kami" },
+  { link: "#contact-us", label: "Kontak Kami" },
 ];
 
 const changeColor = () => {

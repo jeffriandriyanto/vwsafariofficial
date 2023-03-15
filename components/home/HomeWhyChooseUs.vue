@@ -1,8 +1,8 @@
 <template>
   <a class="anchor" id="why-us"></a>
   <div class="why-us py-12 text-black">
-    <img class="why-us-shape" src="~/assets/shape1.png" />
-    <img class="why-us-shape2" src="~/assets/shape1.png" />
+    <div class="why-us-shape"><img src="~/assets/shape1.png" /></div>
+    <div class="why-us-shape2"><img src="~/assets/shape1.png" /></div>
     <v-container class="home-container">
       <div
         class="text-h4 text-center mb-12 d-flex align-center justify-center font-weight-bold"
@@ -51,31 +51,41 @@ const reasons = [
 <style lang="scss">
 .why-us {
   position: relative;
+  max-width: 100vw;
   .why-us-shape {
     position: absolute;
     z-index: -1;
-    width: 600px;
     left: -200px;
     top: -50px;
     opacity: 0.6;
+    img {
+      width: 600px;
+    }
   }
   .why-us-shape2 {
     position: absolute;
     z-index: -1;
-    width: 700px;
-    right: -300px;
+    right: 0;
     bottom: -400px;
     opacity: 0.6;
+    img {
+      width: 700px;
+    }
   }
 
   @media screen and (max-width: 768px) {
     .why-us-shape {
-      width: 300px;
       left: -150px;
       top: -50px;
+      img {
+        width: 300px;
+      }
     }
     .why-us-shape2 {
-      width: 0px;
+      bottom: -100px;
+      img {
+        width: 400px;
+      }
     }
   }
 }

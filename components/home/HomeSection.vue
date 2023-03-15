@@ -12,8 +12,8 @@
     </div> -->
     <v-container class="home-content text-white text-center">
       <div>
-        <div class="text-h2 mb-2">VW Safari Official</div>
-        <div class="text-body-1 mb-4">Explore borobudur with us</div>
+        <div class="text-h2 mb-6">VW Safari Borobudur Official</div>
+        <div class="text-h6 mb-4">Explore borobudur with us</div>
         <v-btn href="#about-us" icon="mdi-arrow-down" />
       </div>
     </v-container>
