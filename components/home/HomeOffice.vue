@@ -41,9 +41,9 @@ const offices = [
     label: "seribuwulung@gmail.com",
   },
   {
-    url: "https://www.instagram.com/vwsafari_official/",
+    url: "https://www.instagram.com/vwborobudur_tour/",
     icon: "mdi-instagram",
-    label: "VW Safari Borobudur",
+    label: "VW Borobudur Tour",
   }
 ];
 </script>
